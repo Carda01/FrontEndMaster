@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 500px;
+}
+
+.output{
+    margin-right: 10px;
+}
+
+.output-box{
+    background-color: black;
+    height: 80px;
+    margin:0;
+    color:white;
+    justify-content:right;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: monospace;
+
+
+}
+
+.calc-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.calc-row .small{
+    width:25%;
+}
+
+.calc-row .big{
+    width:50%;
+}
+
+.calc-row .huge{
+    width:75%;
+}
+
+.calc-row .calc-button{
+    background-color: #ebebeb;
+    border: 1px solid black;
+    height: 120px;
+    text-align:center;
+    align-items: center;
+    font-size:30px;
+    border-radius: 0;
+}
+
+.calc-row button:hover{
+    filter: brightness(1.2);
+}
+
+.calc-row .operation{
+    background-color: #dfb07e;
+    color:white;
+}
